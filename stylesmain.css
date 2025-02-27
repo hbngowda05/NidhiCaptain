@@ -198,3 +198,66 @@ h1 {
         width: 70%;
     }
 }
+.box6 ,.box7,.box8 {
+    width: 100%;
+    max-width: 500px;
+    height: 900px;
+    overflow: hidden;
+    padding: 20px;
+    margin: 50px auto;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.box6 {
+background-image: url("images/nf1.jpg");
+background-position: 0px;
+background-size: 100%;
+background-repeat: no-repeat;
+position: relative;
+}
+.box7 {
+width: 100%;
+max-width: 500px;
+height: 600px;
+overflow: hidden;
+padding: 20px;
+margin: 50px auto;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+position: relative;
+}
+.box7 {
+background-image: url("images/nf2.jpg");
+background-position: 0px;
+background-size: 100%;
+background-repeat: no-repeat;
+position: relative;
+}
+.box8 {
+width: 100%;
+max-width: 500px;
+height: 700px;
+overflow: hidden;
+padding: 20px;
+margin: 50px auto;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+position: relative;
+}
+.box8 {
+background-image: url("images/np3.jpg");
+background-position: 0px;
+background-size: 100%;
+background-repeat: no-repeat;
+position: relative;
+}
+@media (max-width: 768px) {
+    .box6, .box7, .box8 {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+}
